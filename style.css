@@ -1,0 +1,43 @@
+h1{
+   text-align: center;
+   color: white;
+}
+body{
+    background-color: rgba(139, 74, 182, 0.301);
+    font-family: sans-serif;
+}
+.pContainer{
+    background-color: rgba(139, 74, 182, 0.075);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h2Grafico{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.divsContainer{
+    border-radius: 10px;
+    display: flex;
+    border-top: 1px solid rgba(177, 140, 201, 0.075);
+    flex-direction: column;
+    background-color:rgba(139, 74, 182, 0.075);
+}
+.dadosContainer{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;   
+}
+div{
+    background-color:rgba(139, 74, 182, 0.075);
+}
+
+@media screen and (max-width:430px){
+    .pContainer p{
+        font-size: 15px;
+    }
+}
