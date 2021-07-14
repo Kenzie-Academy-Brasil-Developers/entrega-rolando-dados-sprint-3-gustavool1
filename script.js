@@ -23,7 +23,7 @@ function addOnArray(where,n){
 }
 
 
-for(let i=0; i<=1000; i++){
+for(let i=0; i<1000; i++){
     let randomD1 = Math.floor(Math.random()*6)
     let randomD2 = Math.floor(Math.random()*6);
     let somaDosDados = dado1[randomD1]+dado2[randomD2]
